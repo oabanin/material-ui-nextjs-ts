@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+    "export": "next export",
+    "deploy": "npm run build && touch ./out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@emotion/cache": "latest",
