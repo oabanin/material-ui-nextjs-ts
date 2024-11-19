@@ -1,6 +1,6 @@
-const next = require('eslint-config-next')
+import next from 'eslint-config-next'
 
-module.exports = [
+export default [
     next({
         typescript: true,
         coreWebVitals: true,
