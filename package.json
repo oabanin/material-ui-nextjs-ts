@@ -25,8 +25,8 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2",
     "gh-pages": "^6.2.0",
     "typescript": "latest"
   }
